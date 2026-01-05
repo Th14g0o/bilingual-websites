@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jornada Ao Oeste</title>
+    <link rel="stylesheet" href="estilos/comum.css">
+    <link rel="stylesheet" href="estilos/contato.css">
+    <link rel="icon" href="imgs/geral/icone-coroa-nuvem.svg" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <section>
+            <div>
+                <h1>
+                    <a href="index.html">
+                        <img data-i18n="altMarcaSite" src="imgs/geral/icone-coroa-nuvem.svg" alt="Marca do site">
+                        <span> <b data-i18n="cabecalhoTitulo1">Jornada</b> <br /> <b data-i18n="cabecalhoTitulo2">Ao Oeste</b></span>
+                    </a>
+                </h1>
+                <br>
+                <div>
+                    <span data-i18n="linguagemTitulo">Linguagem</span>
+                    <ul>
+                        <li><button onclick="setLinguagem('ptbr')" data-i18n="linguagemPTBR">Português Brasileiro</button></li>
+                        <li><button onclick="setLinguagem('eng')" data-i18n="linguagemENG">Inglês</button></li>
+                    </ul>
+                </div>
+            </div>
+            <nav>
+                <ol>
+                    <li><a href="personagens.html" data-i18n="cabecalhoLinkPersonagens">Personagens</a></li>
+                    <li><a href="filmes.html" data-i18n="cabecalhoLinkFilmes">Filmes</a></li>
+                    <li><a href="jogos.html" data-i18n="cabecalhoLinkJogos">Jogos</a></li>
+                    <li><a href="#" data-i18n="cabecalhoLinkQuadrinhos">Quadrinhos</a></li>
+                    <li><a href="contato.html" data-i18n="cabecalhoLinkContato">Contato</a></li>
+                </ol>
+            </nav>
+        </section>
+        <h2 data-i18n="contatoTitulo">Contato</h2>
+    </header>
+
+    <main>
+        <section>
+            <h3><img data-i18n="" src="imgs/geral/icone-nuvem.svg" alt="Icone de nuvem voadora"><span data-i18n="contatoSectionTitulo">Ajude o Site</span></h3>
+            <p data-i18n="contatoSectionTexto">
+                Caso haja alguma informação errada ou util que agregue para o site, aqui é o lugar para nós 
+                informar.
+            </p>
+            <form action="#">
+                <input data-i18n="placeholderNome" type="text" placeholder="Nome...">
+                <input data-i18n="placeholderEmail" type="email" placeholder="Email...">
+                <textarea data-i18n="placeholderMensagem" placeholder="Mensagem..." ></textarea>
+                <input data-i18n="btEnviar" type="submit" value="Enviar">
+            </form>
+        </section>
+    </main>
+    <hr />
+    <footer>
+        <h4 data-i18n="rodapeTitulo">Atividade TADS Design Web, IFRN </h4>
+        <address data-i18n="rodapeEndereco">Rua Dr. Nilo Bezerra Ramalho, 1692</address>
+        <p><b data-i18n="rodapeCEP">CEP:</b>59015-300</p>
+        <nav>
+            <ul>
+                <li>
+                    <a href="https://github.com/Th14g0o/DesignTADS/">
+                    <img data-i18n="altIconeGit" src="imgs/geral/icone-github.svg" alt="Icone do Github"></a>
+                </li>
+                <li>
+                    <a href="https://www.figma.com/design/qnTILaXXQCxRClA3bJJ4Yv/AtividadeInterface13-06-2025?node-id=12-38&t=ThC4RqjaRcuYMVag-1">
+                    <img data-i18n="altIconeFigma" src="imgs/geral/icone-figma.svg" alt="Icone do Figma"></a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+    <script src="scripts/traducao.js"></script>
+</body>
+</html>

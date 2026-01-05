@@ -1,0 +1,157 @@
+@font-face {
+    font-family: "MedievalSharp";
+    src: url("../fontes/MedievalSharp/MedievalSharp-Regular.ttf")
+}
+
+*{
+    font-family: "MedievalSharp", Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #5C0909;
+    color: #FFF;
+}
+ol, ul{
+    list-style-type: none;
+}
+header section a{
+    text-decoration: none;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 2.5em;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+header section{
+    padding: 1em;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+header section h1 a{
+    color: #FFF;
+    font-size: 0.7em;
+    font-weight: normal;
+}
+header section h1 img{
+    vertical-align: middle;
+}
+header section h1 span{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+header section nav{
+    text-align:right;
+}
+header section nav, header section h1{
+    display: inline-block;
+    vertical-align: middle;
+}
+header section ol li{
+    display: inline-block;
+}
+header section ol li{
+    margin-left: 10px;
+    padding: 0.3em 0;
+}
+header section nav a{
+    color: #F8DB00;
+}
+header h2{
+    text-align: center;
+    margin-top: 70vh;
+    font-size: 2.5em;
+    font-weight: normal;
+}
+main section > h3, main article > h3{
+    margin-bottom:0.5em;
+    font-size: 2em;
+}
+main section >  h3 img, main article >  h3 img{
+    vertical-align: middle;
+    margin-right: 5px;
+}
+main section > h3 span, main article > h3 span{
+    display: inline-block;
+    vertical-align: middle;
+}
+main{
+    padding: 0 2em;
+}
+main section, main article{
+    margin-bottom: 2em;
+}
+
+h3{
+    font-weight: normal;
+}
+body > hr{
+    margin-top: 2.5em;
+    border-color: #C39B17;
+}
+
+footer{
+    padding: 2em;
+}
+footer h4{
+    font-weight: normal;
+}
+footer b{
+    margin-right: 2px;
+}
+footer ul li{
+    display: inline-block;
+    margin-right: 0.5em;   
+}
+
+footer > p, footer address{
+    margin: 10px 0;
+}
+
+header section > div div{
+    visibility: hidden;
+    position: relative;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+header section > div div:hover{
+    visibility: visible;
+}
+header section > div div span{
+    visibility: visible;
+    color: #ffffff;
+    margin-left: 5px;
+}
+header section > div div ul{
+    position: absolute;
+    background-color: #5C0909;
+    padding: 1em;
+}
+header section > div div ul button{
+    display: block;
+    background-color: transparent;
+    border: none;
+    color: #F8DB00;
+    margin: 5px 0;
+    transition-property: transform;
+    transition-duration: 50ms;
+    transition-timing-function: linear;
+    transition-delay: 0s;
+}
+header section > div div ul button:hover{
+    transform: scale(1.1);
+}
+
+@media only screen and (max-width: 600px) {
+    header section ol li:first-child{
+        margin-left: 0;
+    }
+}

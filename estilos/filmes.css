@@ -1,0 +1,13 @@
+header{
+    background-image: url(../imgs/desktop/fundo-filmes-desktop.png);
+}
+@media only screen and (max-width: 900px) {
+    header{
+        background-image: url(../imgs/tablet/fundo-filmes-tablet.png);
+    }
+}
+@media only screen and (max-width: 400px) {
+    header{
+        background-image: url(../imgs/mobile/fundo-filmes-mobile.png);
+    }
+}

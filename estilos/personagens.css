@@ -1,0 +1,39 @@
+header{
+    background-image: url(../imgs/geral/fundo-personagens-desktop.png);
+}
+main article picture{
+    display: block;
+    text-align: center;
+    
+}
+main article picture img{
+    border-top: 7px solid #C39B17;
+    border-bottom: 7px solid #C39B17;
+}
+main article h3{
+    text-align: center;
+}
+main article {
+    text-align: center;
+    width: min-content;
+    margin: 1em auto;
+}
+main article p a{
+    display: block;
+    color: #F8DB00;
+    text-decoration: none;
+    font-size: 1.6em;
+    margin-top: 7px;
+} 
+
+
+@media only screen and (max-width: 900px) {
+    header{
+        background-image: url(../imgs/tablet/fundo-personagens-tablet.png);
+    }
+}
+@media only screen and (max-width: 400px) {
+    header{
+        background-image: url(../imgs/mobile/fundo-personagens-mobile.png);
+    }
+}

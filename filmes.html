@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jornada Ao Oeste</title>
+    <link rel="stylesheet" href="estilos/comum.css">
+    <link rel="stylesheet" href="estilos/produtos.css">
+    <link rel="stylesheet" href="estilos/filmes.css">
+    <link rel="icon" href="imgs/geral/icone-coroa-nuvem.svg" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <section>
+            <div>
+                <h1>
+                    <a href="index.html">
+                        <img data-i18n="altMarcaSite" src="imgs/geral/icone-coroa-nuvem.svg" alt="Marca do site">
+                        <span> <b data-i18n="cabecalhoTitulo1">Jornada</b> <br /> <b data-i18n="cabecalhoTitulo2">Ao Oeste</b></span>
+                    </a>
+                </h1>
+                <br>
+                <div>
+                    <span data-i18n="linguagemTitulo">Linguagem</span>
+                    <ul>
+                        <li><button onclick="setLinguagem('ptbr')" data-i18n="linguagemPTBR">Português Brasileiro</button></li>
+                        <li><button onclick="setLinguagem('eng')" data-i18n="linguagemENG">Inglês</button></li>
+                    </ul>
+                </div>
+            </div>
+            <nav>
+                <ol>
+                    <li><a href="personagens.html" data-i18n="cabecalhoLinkPersonagens">Personagens</a></li>
+                    <li><a href="filmes.html" data-i18n="cabecalhoLinkFilmes">Filmes</a></li>
+                    <li><a href="jogos.html" data-i18n="cabecalhoLinkJogos">Jogos</a></li>
+                    <li><a href="#" data-i18n="cabecalhoLinkQuadrinhos">Quadrinhos</a></li>
+                    <li><a href="contato.html" data-i18n="cabecalhoLinkContato">Contato</a></li>
+                </ol>
+            </nav>
+        </section>
+        <h2 data-i18n="filmesTitulo">Filmes</h2>
+    </header>
+
+    <main>
+        <article>
+            <div>
+                <picture>
+                    <source srcset="imgs/desktop/filme-1-desktop.png" media="(min-width:1400px)">
+                    <source srcset="imgs/tablet/filme-1-tablet.png" media="(min-width:1000px)">
+                    <img data-i18n="altFilmesTumulto" src="imgs/mobile/filme-1-mobile.png" alt="Imagem do filme Tumulto no Reino Celestial">
+                </picture>
+                <hr>
+                <h3 data-i18n="filmesFilme1Titulo">Tumulto no Reino Celestial</h3>
+                <p><span data-i18n="listaCardComumDataLancamento">Data Lançamento</span>: 04/01/2026</p>
+                <p><span data-i18n="listaCardComumAvaliacao">Avaliação</span>: 9.6</p>
+            </div>
+            <div>
+                <picture>
+                    <source srcset="imgs/desktop/filme-2-desktop.png" media="(min-width:1400px)">
+                    <source srcset="imgs/tablet/filme-2-tablet.png" media="(min-width:1000px)">
+                    <img data-i18n="altFilmesLenda" src="imgs/mobile/filme-2-mobile.png" alt="Imagem do filme A Lenda do Rei Macaco: A Volta do Heroi">
+                </picture>
+                <hr>
+                <h3 data-i18n="filmesFilme2Titulo">A Lenda do Rei Macaco</h3>
+                <p><span data-i18n="listaCardComumDataLancamento">Data Lançamento</span>: 04/01/2026</p>
+                <p><span data-i18n="listaCardComumAvaliacao">Avaliação</span>: 9.6</p>
+            </div>
+            <div>
+                <picture>
+                    <source srcset="imgs/desktop/filme-3-desktop.png" media="(min-width:1400px)">
+                    <source srcset="imgs/tablet/filme-3-tablet.png" media="(min-width:1000px)">
+                    <img data-i18n="altFilmesContra" src="imgs/mobile/filme-3-mobile.png" alt="Imagem do filme Contra a Ira dos Deuses">
+                </picture>
+                <hr>
+                <h3 data-i18n="filmesFilme3Titulo">Contra a Ira dos Deuses</h3>
+                <p><span data-i18n="listaCardComumDataLancamento">Data Lançamento</span>: 04/01/2026</p>
+                <p><span data-i18n="listaCardComumAvaliacao">Avaliação</span>: 9.6</p>
+            </div>
+        </article>
+    </main>
+
+    <hr />
+    <footer>
+        <h4 data-i18n="rodapeTitulo">Atividade TADS Design Web, IFRN </h4>
+        <address data-i18n="rodapeEndereco">Rua Dr. Nilo Bezerra Ramalho, 1692</address>
+        <p><b data-i18n="rodapeCEP">CEP:</b>59015-300</p>
+        <nav>
+            <ul>
+                <li>
+                    <a href="https://github.com/Th14g0o/DesignTADS/">
+                    <img data-i18n="altIconeGit" src="imgs/geral/icone-github.svg" alt="Icone do Github"></a>
+                </li>
+                <li>
+                    <a href="https://www.figma.com/design/qnTILaXXQCxRClA3bJJ4Yv/AtividadeInterface13-06-2025?node-id=12-38&t=ThC4RqjaRcuYMVag-1">
+                    <img data-i18n="altIconeFigma" src="imgs/geral/icone-figma.svg" alt="Icone do Figma"></a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+    <script src="scripts/traducao.js"></script>
+</body>
+</html>
