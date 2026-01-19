@@ -226,7 +226,7 @@ const textos = {
         // Comuns
         verMais: "See More",
         listaCardComumDataLancamento : "Release Date",
-        listaCardComumAvaliacao : "Reting",
+        listaCardComumAvaliacao : "Rating",
 
         // Index
         indexSecao1Titulo: "Journey to the West",
